@@ -14,7 +14,7 @@ layout:
     - base
     - ubuntu-com
 toc: false
-bundle_revision: '475'
+bundle_revision: '487'
 bundle_release: '1.19'
 ---
 
@@ -22,24 +22,12 @@ bundle_release: '1.19'
 <!-- If you find an error in this page, it is likely to be in the original
 source of the information - please file a bug rather than editing the text -->
 
-<div class="p-notification--warning">
-  <p markdown="1" class="p-notification__response">
-    <span class="p-notification__status">Warning:</span>
-This version is currently in pre-release and is presented here solely for
-testing purposes. Any information on this and other pages connected to this
-release is subject to change.
-  </p>
-</div>
-
-
 This page details the charms, snaps, images and other components
-which comprise the 1.19 release of Charmed Kubernetes. This is primarily a
-reference page, detailing very specifically what this release of
-**Charmed Kubernetes** contains. For installation, please refer to the
-[quickstart](../quickstart) page.
+which comprise the 1.19 release of Charmed Kubernetes.
 
 Other information about this release can be found on the following pages:
 
+<a class='p-button--brand' href='/kubernetes/docs'> Documentation </a>
 <a class='p-button--brand' href='/kubernetes/docs/1.19/release-notes'>Release notes </a>
 <a class='p-button--brand' href='/kubernetes/docs/1.19/upgrade'>Upgrading </a>
 <a class='p-button--brand' href='https://bugs.launchpad.net/charmed-kubernetes'>Bugs </a>
@@ -74,7 +62,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> A charm that enables using AWS IAM to authenticate with Kubernetes </td>
   <td> <a href="/kubernetes/docs/1.19/charm-aws-iam">docs</a> </td> <td> <a href="https://github.com/charmed-kubernetes/charm-aws-iam"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 43 </td>
+  <td> 50 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -82,7 +70,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Charm to enable AWS integrations via Juju relations. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-aws-integrator">docs</a> </td> <td> <a href="https://github.com/juju-solutions/charm-aws-integrator"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 50 </td>
+  <td> 58 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -90,7 +78,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Proxy charm to enable Azure integrations via Juju relations. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-azure-integrator">docs</a> </td> <td> <a href="https://github.com/juju-solutions/charm-azure-integrator"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 35 </td>
+  <td> 43 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -98,7 +86,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> A robust Software Defined Network from Project Calico </td>
   <td> <a href="/kubernetes/docs/1.19/charm-calico">docs</a> </td> <td> <a href="https://github.com/juju-solutions/layer-calico"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 732 </td>
+  <td> 741 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -106,7 +94,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> A Software Defined Network based on Flannel and Calico </td>
   <td> <a href="/kubernetes/docs/1.19/charm-canal">docs</a> </td> <td> <a href="https://github.com/juju-solutions/layer-canal"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 726 </td>
+  <td> 736 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -114,7 +102,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Containerd container runtime subordinate </td>
   <td> <a href="/kubernetes/docs/1.19/charm-containerd">docs</a> </td> <td> <a href=""> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 84 </td>
+  <td> 89 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -122,7 +110,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Docker container runtime subordinate </td>
   <td> <a href="/kubernetes/docs/1.19/charm-docker">docs</a> </td> <td> <a href=""> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 74 </td>
+  <td> 81 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -130,7 +118,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Registry for docker images </td>
   <td> <a href="/kubernetes/docs/1.19/charm-docker-registry">docs</a> </td> <td> <a href="https://github.com/CanonicalLtd/docker-registry-charm"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 155 </td>
+  <td> 163 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -138,7 +126,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Delivers EasyRSA to create a Certificate Authority (CA). </td>
   <td> <a href="/kubernetes/docs/1.19/charm-easyrsa">docs</a> </td> <td> <a href="https://github.com/charmed-kubernetes/layer-easyrsa"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 321 </td>
+  <td> 326 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -146,7 +134,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Deploy a TLS terminated ETCD Cluster </td>
   <td> <a href="/kubernetes/docs/1.19/charm-etcd">docs</a> </td> <td> <a href="https://github.com/charmed-kubernetes/layer-etcd"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 527 </td>
+  <td> 532 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -154,7 +142,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> A charm that provides a robust Software Defined Network </td>
   <td> <a href="/kubernetes/docs/1.19/charm-flannel">docs</a> </td> <td> <a href="https://github.com/coreos/flannel"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 495 </td>
+  <td> 502 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -162,7 +150,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Charm to enable GCP integrations via Juju relations. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-gcp-integrator">docs</a> </td> <td> <a href="https://github.com/juju-solutions/charm-gcp-integrator"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 43 </td>
+  <td> 50 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -170,7 +158,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Kata untrusted container runtime subordinate </td>
   <td> <a href="/kubernetes/docs/1.19/charm-kata">docs</a> </td> <td> <a href=""> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 48 </td>
+  <td> 55 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -186,7 +174,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Nginx Load Balancer </td>
   <td> <a href="/kubernetes/docs/1.19/charm-kubeapi-load-balancer">docs</a> </td> <td> <a href="https://nginx.org/en/"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 735 </td>
+  <td> 743 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -194,7 +182,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> The Kubernetes control plane. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-kubernetes-master">docs</a> </td> <td> <a href="https://github.com/charmed-kubernetes/charm-kubernetes-master"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 858 </td>
+  <td> 866 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -202,7 +190,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> The workload bearing units of a kubernetes cluster </td>
   <td> <a href="/kubernetes/docs/1.19/charm-kubernetes-worker">docs</a> </td> <td> <a href="https://github.com/charmed-kubernetes/charm-kubernetes-worker"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 687 </td>
+  <td> 694 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -210,7 +198,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Proxy charm to enable OpenStack integrations via Juju relations. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-openstack-integrator">docs</a> </td> <td> <a href="https://github.com/juju-solutions/charm-openstack-integrator"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 74 </td>
+  <td> 81 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -218,7 +206,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Tigera Secure Enterprise Edition </td>
   <td> <a href="/kubernetes/docs/1.19/charm-tigera-secure-ee">docs</a> </td> <td> <a href=""> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 133 </td>
+  <td> 141 </td>
   <td> -- </td>
 </tr>
 <tr>
@@ -226,7 +214,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
   <td> Proxy charm to enable VMware vSphere integrations via Juju relations. </td>
   <td> <a href="/kubernetes/docs/1.19/charm-vsphere-integrator">docs</a> </td> <td> <a href="https://github.com/juju-solutions/charm-vsphere-integrator"> source </a> </td>
   <td> <a href="https://bugs.launchpad.net/charmed-kubernetes"> bugs</a> </td>
-  <td> 32 </td>
+  <td> 39 </td>
   <td> -- </td>
 </tr>
 
@@ -341,7 +329,7 @@ These charms are frequently used with Charmed Kubernetes.
 These are the container images used by this release:
 
 <!-- GENERATED CONTAINER IMAGES -->
-**TBC**
+
 <!-- CONTAINER IMAGES END -->
 
 ## Snaps
@@ -351,18 +339,22 @@ The following snaps are used by this release of Charmed Kubernetes:
 
 | snap  | confinement | summary | link |
 |-------|-------------|---------|------|
-|aws-cli| classic | Resource to side-load aws-cli snap in network-restricted deployments. | [store page](https://snapcraft.io/aws-cli) |
-|core| strict | core snap | [store page](https://snapcraft.io/core) |
-|etcd| classic | Snap package of etcd | [store page](https://snapcraft.io/etcd) |
+|aws-cli| ? | Resource to side-load aws-cli snap in network-restricted deployments. | ? |
+|core| ? | core snap | ? |
+|etcd| ? | Snap package of etcd | ? |
 |gcloud| ? | Resource to side-load gcloud snap in network-restricted deployments. | ? |
-|cdk-addons| strict | CDK addons snap | [store page](https://snapcraft.io/cdk-addons) |
-|kube-apiserver| strict | kube-apiserver snap | [store page](https://snapcraft.io/kube-apiserver) |
-|kube-controller-manager| strict | kube-controller-manager snap | [store page](https://snapcraft.io/kube-controller-manager) |
-|kube-proxy| classic | kube-proxy snap | [store page](https://snapcraft.io/kube-proxy) |
-|kube-scheduler| strict | kube-scheduler snap | [store page](https://snapcraft.io/kube-scheduler) |
-|kubectl| classic | kubectl snap | [store page](https://snapcraft.io/kubectl) |
-|kubelet| classic | kubelet snap | [store page](https://snapcraft.io/kubelet) |
-|openstackclients| classic | Resource to side-load openstackclients snap in network-restricted deployments. | [store page](https://snapcraft.io/openstackclients) |
+|cdk-addons| ? | CDK addons snap | ? |
+|kube-apiserver| ? | kube-apiserver snap | ? |
+|kube-controller-manager| ? | kube-controller-manager snap | ? |
+|kube-proxy| ? | kube-proxy snap | ? |
+|kube-scheduler| ? | kube-scheduler snap | ? |
+|kubectl| ? | kubectl snap | ? |
+|kubelet| ? | kubelet snap | ? |
+|openstackclients| ? | Resource to side-load openstackclients snap in network-restricted deployments. | ? |
+
+
+
+
 
 
 <!-- LINKS -->
@@ -372,3 +364,4 @@ The following snaps are used by this release of Charmed Kubernetes:
 [bugs]: /kubernetes/docs/
 [source]: https://github.com/charmed-kubernetes
 [1.19 milestone]: https://launchpad.net/charmed-kubernetes/+milestone/1.19
+

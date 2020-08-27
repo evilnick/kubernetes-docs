@@ -14,7 +14,7 @@ layout:
     - base
     - ubuntu-com
 toc: false
-charm_revision: '735'
+charm_revision: '743'
 bundle_release: '1.19'
 ---
 
@@ -103,3 +103,16 @@ this allows you to differentiate between them.
 
 
 <!-- CONFIG ENDS -->
+
+## Certificates and extra SANs
+
+See the [Certificates and trust documentation][certs-and-trust] for an overview of certificate
+handling in **Charmed Kubernetes**.
+
+For adding extra SANs and regenerating certificates, refer to the related
+[documentation of the kubernetes-master charm][kubernetes-master]
+
+<!-- LINKS -->
+
+[kubernetes-master]: /kubernetes/docs/charm-kubernetes-master#extra_sans
+[certs-and-trust]: /kubernetes/docs/certs-and-trust

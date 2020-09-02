@@ -14,7 +14,7 @@ layout:
     - base
     - ubuntu-com
 toc: false
-charm_revision: '133'
+charm_revision: '141'
 bundle_release: '1.18'
 ---
 
@@ -97,7 +97,9 @@ production use.
 
 <!-- CONFIG ENDS -->
 
+<!-- ACTIONS STARTS -->
 
+<!-- ACTIONS ENDS -->
 
 ## Further information
 

@@ -105,3 +105,7 @@ juju add-relation haproxy keepalived
 
 
 <!-- CONFIG ENDS -->
+
+<!-- ACTIONS STARTS -->
+
+<!-- ACTIONS ENDS -->

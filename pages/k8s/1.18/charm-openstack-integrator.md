@@ -14,7 +14,7 @@ layout:
     - base
     - ubuntu-com
 toc: false
-charm_revision: '74'
+charm_revision: '81'
 bundle_release: '1.18'
 ---
 
@@ -329,6 +329,9 @@ recommended approach.  If not set, will use the upstream default.
 
 <!-- CONFIG ENDS -->
 
+<!-- ACTIONS STARTS -->
+
+<!-- ACTIONS ENDS -->
 
 [interface]: https://github.com/juju-solutions/interface-openstack-integration
 [Charmed Kubernetes]: https://jaas.ai/charmed-kubernetes

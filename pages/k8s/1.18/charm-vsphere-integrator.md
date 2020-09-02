@@ -14,7 +14,7 @@ layout:
     - base
     - ubuntu-com
 toc: false
-charm_revision: '32'
+charm_revision: '39'
 bundle_release: '1.18'
 ---
 
@@ -223,6 +223,11 @@ spec:
         claimName: testclaim
 EOY
 ```
+
+<!-- ACTIONS STARTS -->
+
+<!-- ACTIONS ENDS -->
+
 
 [interface]: https://github.com/juju-solutions/interface-vsphere-integration
 [Charmed Kubernetes]: https://jaas.ai/charmed-kubernetes

@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: tigera-secure-ee
-charm_revision: '141'
-context:
-  description: Tigera Secure Enterprise Edition
-  title: 'Tigera-secure-ee charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-tigera-secure-ee.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Tigera-secure-ee charm '
+  description: Tigera Secure Enterprise Edition
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-tigera-secure-ee.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '141'
+charm_name: tigera-secure-ee
+bundle_release: '1.18'
 ---
 
 This charm will deploy Tigera Secure Enterprise Edition (EE) as a background

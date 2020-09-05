@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: calico
-charm_revision: '741'
-context:
-  description: A robust Software Defined Network from Project Calico
-  title: 'Calico charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-calico.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Calico charm '
+  description: A robust Software Defined Network from Project Calico
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-calico.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '741'
+charm_name: calico
+bundle_release: '1.18'
 ---
 
 Calico is a new approach to virtual networking and network security for containers,

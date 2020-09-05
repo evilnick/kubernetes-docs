@@ -1,24 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: gcp-integrator
-charm_revision: '50'
-context:
-  description: 'Charm to enable GCP integrations via Juju relations.
-
-    '
-  title: 'Gcp-integrator charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-gcp-integrator.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Gcp-integrator charm '
+  description: "Charm to enable GCP integrations via Juju relations.\n"
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-gcp-integrator.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '50'
+charm_name: gcp-integrator
+bundle_release: '1.18'
 ---
 
 This charm acts as a proxy to GCP and provides an [interface][] to apply a

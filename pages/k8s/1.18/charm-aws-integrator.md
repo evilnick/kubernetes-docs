@@ -1,24 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: aws-integrator
-charm_revision: '58'
-context:
-  description: 'Charm to enable AWS integrations via Juju relations.
-
-    '
-  title: 'Aws-integrator charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-aws-integrator.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Aws-integrator charm '
+  description: "Charm to enable AWS integrations via Juju relations.\n"
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-aws-integrator.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '58'
+charm_name: aws-integrator
+bundle_release: '1.18'
 ---
 
 This charm acts as a proxy to AWS and provides an [interface][] to apply a

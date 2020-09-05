@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: aws-iam
-charm_revision: '50'
-context:
-  description: A charm that enables using AWS IAM to authenticate with Kubernetes
-  title: 'Aws-iam charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-aws-iam.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Aws-iam charm '
+  description: A charm that enables using AWS IAM to authenticate with Kubernetes
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-aws-iam.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '50'
+charm_name: aws-iam
+bundle_release: '1.18'
 ---
 
 The AWS IAM charm allows a Kubernetes cluster to be authenticated via the Amazon

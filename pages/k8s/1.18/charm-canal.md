@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: canal
-charm_revision: '736'
-context:
-  description: A Software Defined Network based on Flannel and Calico
-  title: 'Canal charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-canal.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Canal charm '
+  description: A Software Defined Network based on Flannel and Calico
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-canal.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '736'
+charm_name: canal
+bundle_release: '1.18'
 ---
 
 Canal is a community-driven initiative that aims to allow users to easily

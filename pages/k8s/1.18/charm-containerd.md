@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: containerd
-charm_revision: '88'
-context:
-  description: Containerd container runtime subordinate
-  title: 'Containerd charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-containerd.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Containerd charm '
+  description: Containerd container runtime subordinate
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-containerd.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '94'
+charm_name: containerd
+bundle_release: '1.18'
 ---
 
 This subordinate charm deploys the [Containerd](https://containerd.io/)

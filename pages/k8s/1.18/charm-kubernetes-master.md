@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: kubernetes-master
-charm_revision: '865'
-context:
-  description: The Kubernetes control plane.
-  title: 'Kubernetes-master charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-kubernetes-master.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Kubernetes-master charm '
+  description: The Kubernetes control plane.
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-kubernetes-master.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '886'
+charm_name: kubernetes-master
+bundle_release: '1.18'
 ---
 
 This charm is an encapsulation of the Kubernetes master processes and the

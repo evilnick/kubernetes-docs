@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: kubernetes-worker
-charm_revision: '692'
-context:
-  description: The workload bearing units of a kubernetes cluster
-  title: 'Kubernetes-worker charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-kubernetes-worker.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Kubernetes-worker charm '
+  description: The workload bearing units of a kubernetes cluster
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-kubernetes-worker.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '700'
+charm_name: kubernetes-worker
+bundle_release: '1.18'
 ---
 
 This charm deploys a container runtime and the Kubernetes

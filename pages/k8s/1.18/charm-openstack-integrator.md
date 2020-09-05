@@ -1,24 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: openstack-integrator
-charm_revision: '81'
-context:
-  description: 'Proxy charm to enable OpenStack integrations via Juju relations.
-
-    '
-  title: 'Openstack-integrator charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-openstack-integrator.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Openstack-integrator charm '
+  description: "Proxy charm to enable OpenStack integrations via Juju relations.\n"
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-openstack-integrator.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '81'
+charm_name: openstack-integrator
+bundle_release: '1.18'
 ---
 
 This charm acts as a proxy to OpenStack and provides an [interface][] to provide

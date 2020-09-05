@@ -1,22 +1,22 @@
 ---
-bundle_release: '1.18'
-charm_name: docker-registry
-charm_revision: '163'
-context:
-  description: Registry for docker images
-  title: 'Docker-registry charm '
-keywords: component, charms, versions, release
-layout:
-- base
-- ubuntu-com
+wrapper_template: kubernetes/docs/base_docs.html
 markdown_includes:
   nav: kubernetes/docs/shared/_side-navigation.md
-permalink: 1.18/charm-docker-registry.html
-sidebar: k8smain-sidebar
+context:
+  title: 'Docker-registry charm '
+  description: Registry for docker images
+keywords: component, charms, versions, release
 tags:
-- reference
+    - reference
+sidebar: k8smain-sidebar
+permalink: 1.18/charm-docker-registry.html
+layout:
+    - base
+    - ubuntu-com
 toc: false
-wrapper_template: kubernetes/docs/base_docs.html
+charm_revision: '163'
+charm_name: docker-registry
+bundle_release: '1.18'
 ---
 
 This charm provides a registry for storage and distribution of docker images.

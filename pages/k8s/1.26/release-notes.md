@@ -16,7 +16,7 @@ toc: False
 
 ## 1.26
 
-### December 15, 2022 - `charmed-kubernetes --channel 1.26/stable` 
+### December ??, 2022 - `charmed-kubernetes --channel 1.26/stable` 
 
 The release bundle can also be [downloaded here](https://raw.githubusercontent.com/charmed-kubernetes/bundle/main/releases/1.26/bundle.yaml).
 
@@ -91,9 +91,9 @@ A list of issues to be fixed in the first 1.26 maintenance release can be found 
     aws-k8s-storage/0*         error        idle                54.80.73.214                    hook failed: "update-status"
   ```
 
-  When the affected charms are deployed on a cloud with a `kube-api-loadbalancer`, the load-balancer
+  When the affected charms (see bug link above) are deployed on a cloud with a `kube-api-loadbalancer`, the load-balancer
   can respond to client requests with a 502 Gateway Error, amongst other error statuses not produced
-  by the API server itself.  The charm's kubernetes client library raises an unhandled exception in
+  by the API server itself.  The charm's Kubernetes client library raises an unhandled exception in
   this case. This results is the charm being in an error state which is easily resolved by running
 
   ```bash
